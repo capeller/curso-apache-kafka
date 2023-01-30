@@ -28,7 +28,7 @@ public class KafkaAdminConfig {
     public KafkaAdmin.NewTopics newTopics(){
 
         return new KafkaAdmin.NewTopics(
-                TopicBuilder.name("Payment-topic").partitions(1).build()
+                TopicBuilder.name("payment-topic").partitions(1).build()
         );
     }
 }
